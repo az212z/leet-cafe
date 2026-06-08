@@ -258,6 +258,11 @@ section{position:relative}
   .hero-act{flex-direction:column;align-items:stretch}.hero-act .btn{justify-content:space-between}
   .about-badge{right:auto;left:12px}
 }
+/* HEROFIX-MOBILE: keep Google rating below hero CTAs on phones, no overlap */
+@media(max-width:600px){
+  .hero{flex-direction:column;align-items:stretch;justify-content:flex-end}
+  .hero-meta{position:static;left:auto;right:auto;bottom:auto;top:auto;flex-direction:row;align-items:center;gap:11px;margin-top:22px}
+}
 </style>
 </head>
 <body>
