@@ -35,7 +35,7 @@ h1,h2,h3,h4{font-family:var(--fa-d);font-weight:600;line-height:1.16;letter-spac
 
 /* preloader */
 #pre{position:fixed;inset:0;z-index:10000;background:var(--terra);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;transition:opacity .9s var(--ease),visibility .9s}
-#pre.done{opacity:0;visibility:hidden}
+#pre.done{opacity:0;visibility:hidden;display:none;pointer-events:none}
 #pre .plm{font-family:var(--fd);font-size:clamp(54px,12vw,92px);color:var(--paper);font-weight:500;letter-spacing:-.02em;opacity:0;transform:translateY(12px);animation:plin 1s var(--ease) .15s forwards}
 #pre .pls{font-family:var(--fu);font-size:10.5px;letter-spacing:.5em;color:rgba(251,246,236,.75);text-transform:uppercase;opacity:0;animation:plin 1s var(--ease) .45s forwards}
 #pre .plb{width:120px;height:1px;background:rgba(255,255,255,.25);overflow:hidden}
